@@ -58,7 +58,7 @@ const QuizStart = ({history}) => {
             dispatch(setUser(currentUser));
             alert(
                 "توجه : \n"
-                + "\n \t * این آزمون نمره منفی ندارد و پاسخ ندادن هر سوال به منزله یک غلط است. \n"
+                + "\n \t * این آزمون نمره منفی ندارد و پاسخ نادرست یا پاسخ ندادن به هر سوال به منزله یک غلط است. \n"
                 + "\n \t * در صورت داشتن بیش از چهار غلط مردود می شوید. \n"
                 ) 
                 // Going to the URL that renders the questions
@@ -214,7 +214,7 @@ const QuizStart = ({history}) => {
                 <div className="w-100 p-5">
                     <h1 className="text-center exam-rules-header pt-4" id="rules">** قوانین آزمون **</h1>
                     <div className="px-3 py-2 mt-3 text-justify" style={{fontSize: "24px"}}>
-                        * این آزمون نمره منفی ندارد و پاسخ ندادن هر سوال به منزله یک غلط است. 
+                        * این آزمون نمره منفی ندارد و پاسخ نادرست یا پاسخ ندادن به هر سوال به منزله یک غلط است. 
                         <br className="mb-3"/>
                         * در صورت داشتن بیش از چهار غلط مردود می شوید.
                         <br className="mb-3" />
