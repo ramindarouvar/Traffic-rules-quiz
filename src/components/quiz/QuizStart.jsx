@@ -16,9 +16,9 @@ const QuizStart = ({history}) => {
     const [nationalId, setNationalId] = useState('');
     // set date of birth input values
     const [birthDay, setBirthDay] = useState(null);
-    const [birthMounth, setBirthMounth] = useState(null);
+    const [birthMonth, setBirthMonth] = useState(null);
     const [birthYear, setBirthYear] = useState(null);
-    const [birthDate, setBirthDate] = useState([birthYear, birthMounth, birthDay]);
+    const [birthDate, setBirthDate] = useState([birthYear, birthMonth, birthDay]);
     const [birthDateFilled, setBirthDateFilled] = useState('');
     const [acceptRules, setAcceptRules] = useState();
     useEffect(() => {
@@ -52,13 +52,13 @@ const QuizStart = ({history}) => {
             const currentUser = {id: nationalId, 
                                  firstname: firstName,
                                  lastname: lastName, 
-                                 dateOfBirth: `${birthYear}/${birthMounth}/${birthDay}`
+                                 dateOfBirth: `${birthYear}/${birthMonth}/${birthDay}`
                                 };
             // set current user
             dispatch(setUser(currentUser));
             alert(
                 "توجه : \n"
-                + "\n \t * این آزمون نمره منفی ندارد و پاسخ نادرست یا پاسخ ندادن به هر سوال به منزله یک غلط است. \n"
+                + "\n \t * این آزمون نمره منفی ندارد و پاسخ نادرست یا پاسخ ندادن هر سوال به منزله یک غلط است. \n"
                 + "\n \t * در صورت داشتن بیش از چهار غلط مردود می شوید. \n"
                 ) 
                 // Going to the URL that renders the questions
@@ -160,7 +160,7 @@ const QuizStart = ({history}) => {
                             <select className="birth-select d-block d-md-inline mx-1 rounded border bg-light" name="day" id="birth" 
                                     onChange={e => {
                                         setBirthDay(e.target.value)
-                                        setBirthDate([birthYear, birthMounth, e.target.value]);
+                                        setBirthDate([birthYear, birthMonth, e.target.value]);
                                     }}
                                     defaultValue = {0}
                             >
@@ -169,7 +169,7 @@ const QuizStart = ({history}) => {
                             </select>
                             <select className="birth-select d-block d-md-inline mx-1 rounded border bg-light" name="month" 
                                     onChange={e => {
-                                        setBirthMounth(e.target.value)
+                                        setBirthMonth(e.target.value)
                                         setBirthDate([birthYear, e.target.value, birthDay ]);
                                     }}
                                     defaultValue = {0}
@@ -180,7 +180,7 @@ const QuizStart = ({history}) => {
                             <select className="birth-select d-block d-md-inline mx-1 rounded border bg-light" name="year"
                                     onChange={e => {
                                         setBirthYear(e.target.value)
-                                        setBirthDate([e.target.value, birthMounth, birthDay]);
+                                        setBirthDate([e.target.value, birthMonth, birthDay]);
                                     }}
                                     defaultValue = {0}
                             >
@@ -214,7 +214,7 @@ const QuizStart = ({history}) => {
                 <div className="w-100 p-5">
                     <h1 className="text-center exam-rules-header pt-4" id="rules">** قوانین آزمون **</h1>
                     <div className="px-3 py-2 mt-3 text-justify" style={{fontSize: "24px"}}>
-                        * این آزمون نمره منفی ندارد و پاسخ نادرست یا پاسخ ندادن به هر سوال به منزله یک غلط است. 
+                        * این آزمون نمره منفی ندارد و پاسخ نادرست یا پاسخ ندادن هر سوال به منزله یک غلط است. 
                         <br className="mb-3"/>
                         * در صورت داشتن بیش از چهار غلط مردود می شوید.
                         <br className="mb-3" />
