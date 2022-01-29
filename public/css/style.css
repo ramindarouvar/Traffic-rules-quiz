@@ -152,7 +152,6 @@ color: #000;
 }
 .checkmark{
     background-color: #ffffff;
-    border: 3px solid #f3e0e0;
     border: 2px solid #005285;
     position: absolute;
     top: -13.5px;
