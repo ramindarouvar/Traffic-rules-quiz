@@ -22,13 +22,6 @@ const MainNav = () => {
                                     className="nav-link d-block d-md-inline-block p-1 px-3"
                                     activeClassName="font-weight-bold border-bottom border-top"
                                     exact
-                                    to="/weather">آب و هوای امروز <small>(api)</small></NavLink>
-                                </li>
-                                <li className="d-block d-md-inline text-center m-0 nav-item">
-                                    <NavLink
-                                    className="nav-link d-block d-md-inline-block p-1 px-3"
-                                    activeClassName="font-weight-bold border-bottom border-top"
-                                    exact
                                     to="/about-us">درباره ما</NavLink>
                                 </li>
                                 <li className="d-block d-md-inline text-center m-0 nav-item dropdown">

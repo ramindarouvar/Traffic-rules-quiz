@@ -11,7 +11,6 @@ import QuizEnd from './../quiz/QuizEnd';
 import AnswersAndOptions from '../showingAnswers/AnswersAndOptions';
 import Result from './../result/Result';
 import QuizStart from './../quiz/QuizStart';
-import Weather from './../weather/Weather';
 import { isEmpty } from 'lodash';
 import PageNotFound from '../pageNoyFound/PageNotFound';
 
@@ -20,7 +19,7 @@ const TrafficQuiz = () => {
     const userAnswers = useSelector(state => state.userAnswers);
     const currentUser = useSelector(state => state.currentUser);
 
-    return ( 
+    return (
         <MainLayout>
             <Switch>
                 <Route path="/" component={QuizStart} exact/>
@@ -46,7 +45,6 @@ const TrafficQuiz = () => {
                                             )
                                         } exact/>
                     <Route path="/quiz-user-answers" component={AnswersAndOptions} exact/>
-                <Route path="/weather" component={Weather} exact/>
                 <Route path="/about-us" component={AboutUs} exact/>
                 <Route path="/contact" component={Contact} exact/>
                 <Route component={PageNotFound} exact/>
