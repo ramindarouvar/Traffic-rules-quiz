@@ -54,7 +54,7 @@ const Questions = ({history}) => {
             <div className="quiz-section border rounded w-100">
                 <form className="question h-100" id="questionForm" onSubmit = {e => e.preventDefault()}>
                     {/* countdown timer component for showing remaining time */}
-                    <CountDownTimer replyingDeadline={1} history={history}/>
+                    <CountDownTimer replyingDeadline={20} history={history}/>
                     {/* navigation for change questions */}
                     <QuizNav onQuestionChange={handleQuestionChange} questionId={questionId}/>
                     {/* render each question */}
