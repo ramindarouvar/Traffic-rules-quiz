@@ -19,6 +19,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    direction: rtl;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
@@ -211,7 +212,7 @@ option {
 }
   
   .slider {
-    direction: ltr;
+    direction: rtl;
     -webkit-appearance: none;
     width: 60%;
     height: 10px;
