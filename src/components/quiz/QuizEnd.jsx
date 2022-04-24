@@ -43,7 +43,7 @@ const QuizEnd = () => {
                 // show spinner for 1500 milliseconds
                     <div className="text-center py-5" style={{height: "400px"}}>
                         <div className="mt-3">
-                            <img src="./images/spinners/loadingResult.gif" alt="preloader" className="mx-auto"/> 
+                            <img src="images/spinners/loadingResult.gif" alt="preloader" className="mx-auto"/> 
                         </div>
                         <span className="h2" style={{color: "#6D8CFA"}}>محاسبه نمره ...</span>
                     </div>
