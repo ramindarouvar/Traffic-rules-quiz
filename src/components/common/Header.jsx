@@ -15,7 +15,7 @@ const Header = () => {
                         </p>
                     </div>
                     <div className="col-sm-2 text-left">
-                        <img src="images/warning.png" className="img-fluid d-none d-sm-inline" alt="warning-sign" style={{width: "67%"}}/>
+                        <img src="images/Warning.png" className="img-fluid d-none d-sm-inline" alt="warning-sign" style={{width: "67%"}}/>
                     </div>
                 </div>
             </header>
