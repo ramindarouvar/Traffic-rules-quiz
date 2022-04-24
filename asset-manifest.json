@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Traffic-rules-quiz/static/css/main.ca8386eb.chunk.css",
-    "main.js": "/Traffic-rules-quiz/static/js/main.54165830.chunk.js",
-    "main.js.map": "/Traffic-rules-quiz/static/js/main.54165830.chunk.js.map",
-    "runtime-main.js": "/Traffic-rules-quiz/static/js/runtime-main.93dad46d.js",
-    "runtime-main.js.map": "/Traffic-rules-quiz/static/js/runtime-main.93dad46d.js.map",
-    "static/js/2.275e68fa.chunk.js": "/Traffic-rules-quiz/static/js/2.275e68fa.chunk.js",
-    "static/js/2.275e68fa.chunk.js.map": "/Traffic-rules-quiz/static/js/2.275e68fa.chunk.js.map",
-    "index.html": "/Traffic-rules-quiz/index.html",
-    "static/css/main.ca8386eb.chunk.css.map": "/Traffic-rules-quiz/static/css/main.ca8386eb.chunk.css.map",
-    "static/js/2.275e68fa.chunk.js.LICENSE.txt": "/Traffic-rules-quiz/static/js/2.275e68fa.chunk.js.LICENSE.txt",
-    "static/media/style.scss": "/Traffic-rules-quiz/static/media/TitrBold.6da97599.woff"
+    "main.css": "/quiz/static/css/main.cdf382be.chunk.css",
+    "main.js": "/quiz/static/js/main.54165830.chunk.js",
+    "main.js.map": "/quiz/static/js/main.54165830.chunk.js.map",
+    "runtime-main.js": "/quiz/static/js/runtime-main.efdebb2c.js",
+    "runtime-main.js.map": "/quiz/static/js/runtime-main.efdebb2c.js.map",
+    "static/js/2.275e68fa.chunk.js": "/quiz/static/js/2.275e68fa.chunk.js",
+    "static/js/2.275e68fa.chunk.js.map": "/quiz/static/js/2.275e68fa.chunk.js.map",
+    "index.html": "/quiz/index.html",
+    "static/css/main.cdf382be.chunk.css.map": "/quiz/static/css/main.cdf382be.chunk.css.map",
+    "static/js/2.275e68fa.chunk.js.LICENSE.txt": "/quiz/static/js/2.275e68fa.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/quiz/static/media/TitrBold.6da97599.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.93dad46d.js",
+    "static/js/runtime-main.efdebb2c.js",
     "static/js/2.275e68fa.chunk.js",
-    "static/css/main.ca8386eb.chunk.css",
+    "static/css/main.cdf382be.chunk.css",
     "static/js/main.54165830.chunk.js"
   ]
 }
