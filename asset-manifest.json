@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Traffic-rules-quiz/static/css/main.ca8386eb.chunk.css",
-    "main.js": "/Traffic-rules-quiz/static/js/main.54165830.chunk.js",
-    "main.js.map": "/Traffic-rules-quiz/static/js/main.54165830.chunk.js.map",
+    "main.js": "/Traffic-rules-quiz/static/js/main.df089511.chunk.js",
+    "main.js.map": "/Traffic-rules-quiz/static/js/main.df089511.chunk.js.map",
     "runtime-main.js": "/Traffic-rules-quiz/static/js/runtime-main.93dad46d.js",
     "runtime-main.js.map": "/Traffic-rules-quiz/static/js/runtime-main.93dad46d.js.map",
     "static/js/2.275e68fa.chunk.js": "/Traffic-rules-quiz/static/js/2.275e68fa.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.93dad46d.js",
     "static/js/2.275e68fa.chunk.js",
     "static/css/main.ca8386eb.chunk.css",
-    "static/js/main.54165830.chunk.js"
+    "static/js/main.df089511.chunk.js"
   ]
 }
